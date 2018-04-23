@@ -1,0 +1,38 @@
+docs_dir: docs-src
+site_dir: docs
+edit_uri: edit/master/docs-src/
+site_name: ReJSON-PHP
+repo_url: https://github.com/ethanhann/rejson-php
+site_author: Ethan Hann
+copyright: © 2018 - Ethan Hann
+
+pages:
+- Getting Started: index.md
+
+extra_css:
+    - css/style.css
+
+theme:
+  name: 'material'
+  favicon: 'images/logo.png'
+  logo: 'images/logo-lg.png'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  feature:
+    tabs: false
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite:
+      css_class: codehilite
+  - pymdownx.highlight:
+      css_class: codehilite
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+
