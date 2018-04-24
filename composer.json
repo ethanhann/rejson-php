@@ -22,7 +22,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-      "php": ">=7",
+      "php": ">=7.1",
         "ethanhann/redis-raw": "^0.2.1"
     },
     "require-dev": {
