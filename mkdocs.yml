@@ -14,11 +14,11 @@ extra_css:
 
 theme:
   name: 'material'
-  favicon: 'images/logo.png'
-  logo: 'images/logo-lg.png'
+  favicon: 'images/logo-black.png'
+  logo: 'images/logo-white.png'
   palette:
-    primary: 'blue'
-    accent: 'blue'
+    primary: 'deep-purple'
+    accent: 'deep-purple'
   feature:
     tabs: false
 

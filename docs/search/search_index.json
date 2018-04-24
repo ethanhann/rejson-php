@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "ReJSON-PHP\n\u00b6\n\n\nPHP client library for the \nReJSON\n Redis module which provides a native JSON data type for Redis.\n\n\nRequirements\n\u00b6\n\n\n\n\nRedis running with the \nRedis-ML\n.\n\n\nPHP >=7\n\n\nPhpRedis\n, \nPredis\n, or \nphp-redis-client\n.\n\n\n\n\nInstall\n\u00b6\n\n\ncomposer install ethanhann/rejson\n\n\n\n\nLoad\n\u00b6\n\n\nrequire_once\n \n'vendor/autoload.php'\n;",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/#rejson-php",
+            "text": "PHP client library for the  ReJSON  Redis module which provides a native JSON data type for Redis.",
+            "title": "ReJSON-PHP"
+        },
+        {
+            "location": "/#requirements",
+            "text": "Redis running with the  Redis-ML .  PHP >=7  PhpRedis ,  Predis , or  php-redis-client .",
+            "title": "Requirements"
+        },
+        {
+            "location": "/#install",
+            "text": "composer install ethanhann/rejson",
+            "title": "Install"
+        },
+        {
+            "location": "/#load",
+            "text": "require_once   'vendor/autoload.php' ;",
+            "title": "Load"
+        }
+    ]
+}
