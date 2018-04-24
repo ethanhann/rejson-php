@@ -1,6 +1,6 @@
-# Redis-ML-PHP
+# ReJSON-PHP
 
-Redis-ML-PHP is a PHP client library for the [Redis-ML](http://redisml.io) module which implements several machine learning models as Redis data types.
+PHP client library for the [ReJSON](https://rejson.io) Redis module which provides a native JSON data type for Redis.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Redis-ML-PHP is a PHP client library for the [Redis-ML](http://redisml.io) modul
 ## Install
 
 ```bash
-composer install ethanhann/redis-ml
+composer install ethanhann/rejson
 ```
 
 ## Load
@@ -19,14 +19,3 @@ composer install ethanhann/redis-ml
 ```php-inline
 require_once 'vendor/autoload.php';
 ```
-
-## Usage Overview
-
-Create a [Model](model-factory.md) factory, then use the factory to create a model.
-See the reference documentation for how to use each data type:
-
-1. [Random Forest](random-forest.md)
-1. [Linear Regression](linear-regression.md)
-1. [Logistic Regression](logistic-regression.md)
-1. [k-means](k-means.md)
-1. [Matrix](matrix.md)
