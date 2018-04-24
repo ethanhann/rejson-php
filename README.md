@@ -8,4 +8,5 @@
 [![License](https://poser.pugx.org/ethanhann/rejson/license)](https://packagist.org/packages/ethanhann/rejson)
 
 **What is this?**
+
 A PHP client library for the [ReJSON](https://rejson.io) module which provides a native JSON data type for Redis.
